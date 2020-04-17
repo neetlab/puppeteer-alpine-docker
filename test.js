@@ -1,6 +1,5 @@
 const puppeteer = require('puppeteer');
 const [, , URL] = process.argv;
-console.log(process.argv);
 
 // This example fetches the title of the website specified as the 1st argument
 (async () => {
